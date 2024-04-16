@@ -1,0 +1,30 @@
+{
+  "name": "chart-to-json",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "chart",
+    "music",
+    "json"
+  ],
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "homepage": "https://github.com/neogeek/chart-to-json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/chart-to-json.git"
+  }
+}
