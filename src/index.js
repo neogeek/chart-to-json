@@ -98,6 +98,15 @@ const chartToJson = (contents) => {
         }),
         {}
       ),
+    TimeSignatures: sections['SyncTrack']
+      .filter((item) => item.values[0] === 'TS')
+      .reduce(
+        (prev, curr) => ({
+          ...prev,
+          [curr.key]: curr.values.slice(1).map((value) => parseInt(value, 10)),
+        }),
+        {}
+      ),
   };
 };
 
