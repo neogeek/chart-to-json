@@ -106,5 +106,6 @@
       { "Position": 5760, "HandPosition": 2, "Length": 0 }
     ]
   },
-  "BPM": { "0": 120000 }
+  "BPM": { "0": 120000 },
+  "TimeSignatures": { "0": [4] }
 }
